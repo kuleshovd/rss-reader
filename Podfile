@@ -2,9 +2,11 @@
 # platform :ios, '9.0'
 
 target 'rss-reader' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  inhibit_all_warnings!
 
-  # Pods for rss-reader
+  pod 'FeedKit', '~> 8.1'
+  pod 'Kingfisher', '~> 5.7'
+  pod 'SVProgressHUD', '~> 2.2'
 
 end

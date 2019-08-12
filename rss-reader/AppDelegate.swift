@@ -13,9 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    private var appCoordinator: AppCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let screenSize = UIScreen.main.bounds.size
+        window = UIWindow(frame: .init(origin: .zero, size: screenSize))
+        
+        appCoordinator = AppCoordinator()
+        window?.rootViewController = appCoordinator?.rootViewController
+        window?.makeKeyAndVisible()
+        
+        ColorsManager.setupColors()
+        
         return true
     }
 
