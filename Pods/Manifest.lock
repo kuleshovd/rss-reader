@@ -1,0 +1,24 @@
+PODS:
+  - FeedKit (8.1.1)
+  - Kingfisher (5.7.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - FeedKit (~> 8.1)
+  - Kingfisher (~> 5.7)
+  - SVProgressHUD (~> 2.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FeedKit
+    - Kingfisher
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  FeedKit: 3418eed25f0b493b205b4de1b8511ac21d413fa9
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 3412147b32c5fcffbdb5018d5e3a38ea8cc2b8d4
+
+COCOAPODS: 1.7.2
